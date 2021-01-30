@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@0,300;0,500;1,700&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css);
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+header {
+  padding: 10px 10%;
+  display: flex;
+  color: white;
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h3 {
+  color: chocolate;
+}
+#avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 10px;
+}
+aside {
+  width: 30%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+}
+#titles {
+  margin: auto 30px;
+  width:100%;
+}
+#titles h1 {
+  font-size: 50px;
+  margin: 0;
+}
+main {
+  padding: 50px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+aside,
+section {
+  border: 1px lightgray;
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 5px;
+}
+section {
+  width: 65%;
+}
+#languages{
+  width:150px;
+  margin-top: 30px;;
+}
+#skills{
+  display:block; 
+}
+.icone{
+width: 25px;
+height: 25px;
+}
+#list{
+  display:flex;
+  justify-content: start;
+
+}
