@@ -9,7 +9,7 @@
   "scripts": {
 "start": "http-server -p 9000"
   },
-  "private": "no",
+  "private": "private",
   "dependencies": {
     "http-server": "^0.12.3"
   },
